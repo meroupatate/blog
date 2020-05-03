@@ -1,0 +1,27 @@
+title: meroupatate
+email: alice.zhen@telecom-sudparis.eu
+description: >-
+    Hi there, I am Alice and I am a French engineering student at Télécom SudParis.
+url: "https://meroupatate.github.io"
+theme: jekyll-dash
+show_excerpts: false
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+dash:
+    date_format: "%b %-d, %Y"
+    social_links:
+        - url: https://twitter.com/meroupatate
+          icon: twitter-square
+          color: cyan
+        - url: https://github.com/meroupatate
+          icon: github-square
+          color: purple
+
+plugins:
+    - jekyll/tagging
