@@ -1,0 +1,19 @@
+language: ruby
+cache: bundler
+branches:
+  only:
+  - master
+before_install:
+  - gem install bundler -v 2.1.4
+script:
+  - JEKYLL_ENV=production bundle exec jekyll build --destination site
+deploy:
+  repo: meroupatate/meroupatate.github.io
+  provider: pages
+  local-dir: ./site
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
