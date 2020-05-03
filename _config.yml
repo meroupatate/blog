@@ -15,6 +15,8 @@ tag_page_dir: tag
 
 dash:
     date_format: "%b %-d, %Y"
+    disqus:
+        shortname: meroupatate-github-io
     social_links:
         - url: https://twitter.com/meroupatate
           icon: twitter-square
