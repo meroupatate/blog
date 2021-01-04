@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to restore an accidentally deleted Windows Boot Manager with a Windows / Arch Linux dual-boot installation ?
+title: How to restore an accidentally deleted Windows Boot Manager with a Windows / Arch Linux dual-boot installation
 tags: windows arch linux dual-boot bootloader systemd-boot
 ---
 
