@@ -27,3 +27,4 @@ dash:
 
 plugins:
     - jekyll/tagging
+    - jekyll-sitemap
