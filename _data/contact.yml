@@ -1,0 +1,37 @@
+#  The contact options.
+
+-
+  type: github
+  icon: 'fab fa-github-alt'
+  url: 'https://github.com/meroupatate'
+-
+  type: linkedin
+  icon: 'fab fa-linkedin'
+  url:  'https://www.linkedin.com/in/alicezhen07/'
+-
+  type: twitter
+  icon: 'fab fa-twitter'
+  url: 'https://twitter.com/meroupatate'
+-
+  type: email
+  icon: 'fas fa-envelope'
+  noblank: true            # open link in current tab
+  url: 'mailto:alice.zhen@telecom-sudparis.eu'
+
+# Uncomment and complete the url below to enable more contact options
+# -
+#   type: mastodon
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your mastodon account page
+# -
+#   type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Linkedin homepage
+# -
+#   type: stack-overflow
+#   icon: 'fab fa-stack-overflow'
+#   url:  ''                  # Fill with your stackoverflow homepage
+#-
+#  type: rss
+#  icon: 'fas fa-rss'
+#  noblank: true
