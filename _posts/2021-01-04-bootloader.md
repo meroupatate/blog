@@ -59,7 +59,7 @@ $ sudo woeusb --target-filesystem NTFS --device Win10_20H2_v2_French_x64.iso /de
 
 Once the command has finished its execution, I rebooted from the newly created Windows installation drive (by changing the UEFI boot order in BIOS) and landed in the Windows installation screen.
 
-I then found a thread where Mark S. described how to create a lost EFI partition from an installation media. Since I already had an existing EFI system partition, I skipped the steps used to create and format the partition and only run the following steps:
+I then found a [thread](https://answers.microsoft.com/en-us/windows/forum/all/accidentally-deleted-windows-10-boot-partition-how/181745f9-3303-4968-9851-5c213db9c89c) where Mark S. described how to create a lost EFI partition from an installation media. Since I already had an existing EFI system partition, I skipped the steps used to create and format the partition and only run the following steps:
 - Press `SHIFT+F10` on the Windows installation screen to open a command-line interpreter.
 - Run `diskpart` to launch the disk management tool DiskPart.
 - Run `list disk` in DiskPart to get a list of existing disks.
